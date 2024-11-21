@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:prettier/recommended"
+  ],
+  "settings": {
+    "next": {
+      "rootDir": "./src"
+    }
+  },
+  "rules": {
+    "@next/next/no-img-element": "off"
+  }
+}

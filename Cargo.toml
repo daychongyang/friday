@@ -1,0 +1,12 @@
+[workspace]
+members = ["client/src-tauri", "server"]
+resolver = "2"
+
+[workspace.package]
+rust-version = "1.82"
+edition = "2021"
+repository = "https://github.com/daychongyang/friday"
+description = ""
+keywords = []
+license = "MIT"
+authors = ["daychongyang"]

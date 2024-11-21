@@ -1,0 +1,45 @@
+{
+  "name": "friday",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "husky",
+    "dev": "next dev --turbopack -p 9527",
+    "build": "next build",
+    "start": "next start",
+    "tauri": "tauri",
+    "lint": "next lint"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": "eslint --max-warnings 0"
+  },
+  "dependencies": {
+    "next": "15.0.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@react-dev-inspector/babel-plugin": "2.0.1",
+    "@react-dev-inspector/middleware": "2.0.1",
+    "@tauri-apps/cli": "2.1.0",
+    "@types/node": "^20.17.6",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.0.3",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "husky": "9.1.6",
+    "lint-staged": "15.2.10",
+    "postcss": "^8.4.49",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-preset-env": "10.1.0",
+    "prettier": "3.3.3",
+    "react-dev-inspector": "2.0.1",
+    "sass": "1.81.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a"
+}

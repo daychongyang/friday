@@ -1,0 +1,9 @@
+[development]
+last 1 iOS version
+last 1 Android version
+
+[production]
+last 2 versions
+> 0.2%
+not dead
+
